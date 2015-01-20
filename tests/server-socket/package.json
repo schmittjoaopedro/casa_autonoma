@@ -1,0 +1,14 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {
+  	"express" :	"4.10.2",
+  	"socket.io" : "1.2.1",
+  	"passport" : "0.2.1",
+  	"passport-local" : "1.0.0",
+  	"body-parser": "^1.7.0",
+	"ejs": "^1.0.0",
+	"express-session": "^1.7.6"
+  }
+}

@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json socket-chat-example@0.0.1 No repository field.
+5 warn package.json socket-chat-example@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/joao/Dropbox/Casa Autonoma/Testes/Teste Comunicacao Socket/server-socket',
+7 verbose install   [ 'express', 'socket.io', 'passport', 'passport-local' ] ]
+8 info preinstall socket-chat-example@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping express@4.10.2 /home/joao/Dropbox/Casa Autonoma/Testes/Teste Comunicacao Socket/server-socket
+11 verbose already installed skipping socket.io@1.2.1 /home/joao/Dropbox/Casa Autonoma/Testes/Teste Comunicacao Socket/server-socket
+12 verbose already installed skipping passport@0.2.1 /home/joao/Dropbox/Casa Autonoma/Testes/Teste Comunicacao Socket/server-socket
+13 verbose cache add [ 'passport-local@3', null ]
+14 verbose cache add name=undefined spec="passport-local@3" args=["passport-local@3",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'passport-local@3',
+15 verbose parsed url   path: 'passport-local@3',
+15 verbose parsed url   href: 'passport-local@3' }
+16 verbose cache add name="passport-local" spec="3" args=["passport-local","3"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '3',
+17 verbose parsed url   path: '3',
+17 verbose parsed url   href: '3' }
+18 verbose addNamed [ 'passport-local', '3' ]
+19 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+20 silly lockFile 061c7514-passport-local-3 passport-local@3
+21 verbose lock passport-local@3 /root/.npm/061c7514-passport-local-3.lock
+22 silly addNameRange { name: 'passport-local',
+22 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+22 silly addNameRange   hasData: false }
+23 verbose request where is /passport-local
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id cc1839bf386f1ee1
+26 verbose url raw /passport-local
+27 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local' ]
+28 verbose url resolved https://registry.npmjs.org/passport-local
+29 verbose request where is https://registry.npmjs.org/passport-local
+30 info trying registry request attempt 1 at 20:30:18
+31 http GET https://registry.npmjs.org/passport-local
+32 http 200 https://registry.npmjs.org/passport-local
+33 silly registry.get cb [ 200,
+33 silly registry.get   { date: 'Fri, 09 Jan 2015 22:30:23 GMT',
+33 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly registry.get     etag: '"8Y58CM8D070T9QZL9BD47QRU8"',
+33 silly registry.get     'content-type': 'application/json',
+33 silly registry.get     'cache-control': 'max-age=60',
+33 silly registry.get     'content-length': '13514',
+33 silly registry.get     'accept-ranges': 'bytes',
+33 silly registry.get     via: '1.1 varnish',
+33 silly registry.get     age: '21',
+33 silly registry.get     'x-served-by': 'cache-atl6228-ATL',
+33 silly registry.get     'x-cache': 'HIT',
+33 silly registry.get     'x-cache-hits': '1',
+33 silly registry.get     'x-timer': 'S1420842623.231749,VS0,VE0',
+33 silly registry.get     vary: 'Accept',
+33 silly registry.get     'keep-alive': 'timeout=10, max=50',
+33 silly registry.get     connection: 'Keep-Alive' } ]
+34 silly addNameRange number 2 { name: 'passport-local',
+34 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+34 silly addNameRange   hasData: true }
+35 silly addNameRange versions [ 'passport-local',
+35 silly addNameRange   [ '0.1.0',
+35 silly addNameRange     '0.1.1',
+35 silly addNameRange     '0.1.2',
+35 silly addNameRange     '0.1.3',
+35 silly addNameRange     '0.1.4',
+35 silly addNameRange     '0.1.5',
+35 silly addNameRange     '0.1.6',
+35 silly addNameRange     '1.0.0' ] ]
+36 silly lockFile 061c7514-passport-local-3 passport-local@3
+37 silly lockFile 061c7514-passport-local-3 passport-local@3
+38 error notarget No compatible version found: passport-local@'>=3.0.0-0 <4.0.0-0'
+38 error notarget Valid install targets:
+38 error notarget ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","1.0.0"]
+38 error notarget
+38 error notarget This is most likely not a problem with npm itself.
+38 error notarget In most cases you or one of your dependencies are requesting
+38 error notarget a package version that doesn't exist.
+39 error System Linux 3.13.0-43-generic
+40 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save"
+41 error cwd /home/joao/Dropbox/Casa Autonoma/Testes/Teste Comunicacao Socket/server-socket
+42 error node -v v0.10.32
+43 error npm -v 1.4.28
+44 error code ETARGET
+45 verbose exit [ 1, true ]
